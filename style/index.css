@@ -122,12 +122,14 @@ main .about .wrap-2{
     display: flex;
     justify-content: space-between;
     padding: 5% 15%;
+    height: 90%;
 
 }
 
 main .about .wrap-2 p{
     text-align: justify;
     font-size: 18px;
+    height: auto;
 }
 
 main .about .wrap-2 .dp{
@@ -138,9 +140,15 @@ main .about .wrap-2 .dp{
 }
 
 main .about .wrap-2 .dp img{
-    height: 37%;
+    height: 350px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    margin: 15px 30px ;
+}
+
+main .about h3{
+    text-align: center;
+
 }
 
 
