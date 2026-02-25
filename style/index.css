@@ -116,6 +116,8 @@ main .about h2{
     text-align: center;
     padding: 20px 10px;
     font-size: 2em;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5),
+                 0 8px 30px rgba(0,0,0,0.6);
 }
 
 main .about .wrap-2{
@@ -151,6 +153,7 @@ main .about .wrap-2 .dp img{
 
 main .about h3{
     text-align: center;
+    font-size: 30px;
 
 }
 
