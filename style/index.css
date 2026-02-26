@@ -158,4 +158,23 @@ main .about h3{
 }
 
 
+.divider {
+  border: none;
+  height: 2px;
+  background-color: #3b3a3a; /* change color if needed */
+  width: 200px;          /* controls the line length */
+  margin: 30px auto;     /* centers it */
+}
+
+
+main .gray{
+  text-align: center;
+  background-color: #e8e3e3;
+  padding: 20px 0 ;
+}
+
+main .gray h3{
+  font-weight: 500;
+}
+
 
