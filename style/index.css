@@ -177,4 +177,101 @@ main .gray h3{
   font-weight: 500;
 }
 
+/* CARD LAYOUT */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+/* PUSH BUTTON TO BOTTOM */
+.card .cta {
+  margin-top: auto;
+  align-self: center;
+}
+
+/* CTA BUTTON */
+.cta {
+  position: relative;
+  padding: 12px 18px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* BACKGROUND CIRCLE */
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background: #e13939;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+/* TEXT */
+.cta span {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #3b3a3a;
+}
+
+/* ARROW */
+.cta svg {
+  position: relative;
+  margin-left: 10px;
+  fill: none;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.cta:hover:before {
+  width: 100%;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+/* CLICK EFFECT */
+.cta:active {
+  transform: scale(0.95);
+}
+
+#work{
+  align-items: center;
+  text-align: center;
+
+}
+
+
+#work .wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+#work ,.wrapper .card{
+  padding: 50px  90px;
+  align-items: center;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+#work .wrapper .card img{
+  height: 15em;
+  width: 15em;
+}
